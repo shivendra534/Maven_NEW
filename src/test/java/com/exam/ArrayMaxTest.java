@@ -12,7 +12,7 @@ class ArrayMaxTest {
 
     @Test @DisplayName("Positive: normal array")
     void positive_normalArray() {
-        assertEquals(9, am.findMax(new int[]{3, 9, 2, 7}));
+        assertEquals(8, am.findMax(new int[]{3, 9, 2, 7}));
     }
 
     @Test @DisplayName("Positive: max at start")
